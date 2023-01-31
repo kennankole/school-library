@@ -1,14 +1,14 @@
-require "./src/persons.rb"
+require './src/persons'
 
 class Teacher < Person
-	attr_accessor :specialization
+  attr_accessor :specialization
 
-	def initialize(specialization)
-		super(age, name='Unknown', parent_permission=true)
-		@specialization = specialization
-	end
+  def initialize(specialization)
+    super(age, name: 'Unknown', parent_permission: true)
+    @specialization = specialization
+  end
 
-	def can_use_services?
-		return true
-	end
+  def can_use_services?
+    true
+  end
 end

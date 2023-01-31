@@ -1,14 +1,14 @@
-require "./src/persons.rb"
+require './src/persons'
 
 class Student < Person
-	attr_accessor :classroom
+  attr_accessor :classroom
 
-	def initialize(classroom)
-		super(name, age)
-		@classroom = classroom
-	end
+  def initialize(classroom)
+    super(name, age)
+    @classroom = classroom
+  end
 
-	def play_hooky
-		return '¯\(ツ)/¯'
-	end
+  def play_hooky
+    '¯\(ツ)/¯'
+  end
 end
