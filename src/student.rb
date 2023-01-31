@@ -12,8 +12,3 @@ class Student < Person
 		return '¯\(ツ)/¯'
 	end
 end
-
-
-one = Student.new(5)
-puts one.play_hooky
-puts one.is_of_age?

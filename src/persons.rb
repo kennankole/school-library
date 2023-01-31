@@ -24,7 +24,3 @@ class Person
 		end
 	end
 end
-
-one_person = Person.new(1, 5);
-puts one_person.can_use_services?
-puts one_person.is_of_age?

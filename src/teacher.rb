@@ -12,6 +12,3 @@ class Teacher < Person
 		return true
 	end
 end
-
-teach = Teacher.new("Mathematics")
-puts teach.can_use_services?
