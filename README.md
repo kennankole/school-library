@@ -60,12 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [School Library] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
-
+**[School library]** is an app built by Ruby
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -75,17 +74,9 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby.rb</a></li>
   </ul>
 </details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
 <details>
 <summary>Database</summary>
   <ul>
@@ -99,9 +90,7 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Read books]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,75 +116,47 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
 
 ```sh
  gem install rails
 ```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
 ```
---->
+
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
 
 ```sh
   cd my-project
   gem install
 ```
---->
-
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
 ```sh
   rails server
 ```
---->
-
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
 ```sh
   bin/rails test test/models/article_test.rb
 ```
---->
-
 ### Deployment
 
-You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,17 +166,11 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Kennankole**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@kennankole](https://github.com/kennankole)
+- Twitter: [@obwombe_kennedy](https://twitter.com/obwombe_kennedy)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kennedyomondi/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,9 +180,7 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Borrow book]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -247,7 +200,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project kindly give it a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -257,7 +210,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank the Microverse tutorials
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -267,13 +220,9 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[Can I clone the repo]**
 
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+  - [Yes]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
