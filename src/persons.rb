@@ -10,14 +10,11 @@ class Person
   end
 
   def of_age?
-    return true if age&.>= 18
-
-    false
+    @age >= 18
   end
 
   def can_use_services?
     return true if @age >= 18 && @parent_permission == true
-
     false
   end
 end
