@@ -11,4 +11,12 @@ class Rental
     @person = person
     person.rentals << self
   end
+
+  def all_books
+    @book
+  end
+
+  def all_people
+    @person
+  end
 end

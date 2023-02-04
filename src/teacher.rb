@@ -1,10 +1,10 @@
-require './src/persons'
+require './persons'
 
 class Teacher < Person
   attr_accessor :specialization
 
-  def initialize(specialization)
-    super(age, name: 'Unknown', parent_permission: true)
+  def initialize(id, age, name, specialization, parent_permission: true)
+    super(id, age, name, parent_permission: parent_permission)
     @specialization = specialization
   end
 
