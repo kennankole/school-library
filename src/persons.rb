@@ -1,9 +1,10 @@
-require './names.rb'
+require './names'
 
 class Person < Nameable
   @all_people = []
   attr_reader :id, :rentals, :parent_permission
   attr_accessor :name, :age
+
   def initialize(age, name = 'Unknown', parent_permission: true)
     super()
     @name = name
@@ -19,6 +20,7 @@ class Person < Nameable
 
   def can_use_services?
     return true if @age >= 18 && @parent_permission == true
+
     false
   end
 
