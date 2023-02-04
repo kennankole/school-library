@@ -62,7 +62,9 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [School Library] <a name="about-project"></a>
 
-**[School library]** is an app built by Ruby
+> Describe your project in 1 or 2 sentences.
+
+**[School library]** is an online app for renting books for both students and teachers
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -117,7 +119,6 @@ Clone this repository to your desired folder:
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
 ```
-
 
 ### Install
 
