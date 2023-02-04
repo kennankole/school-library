@@ -1,4 +1,3 @@
-
 require './src/names'
 
 class Person < Nameable
@@ -6,11 +5,11 @@ class Person < Nameable
   attr_accessor :name, :age
 
   def initialize(id, age, name = 'Unknown', parent_permission: true)
+    super()
     @id = id
     @name = name
     @age = age
     @parent_permission = parent_permission
-
     @rentals = []
   end
 
@@ -27,6 +26,7 @@ class Person < Nameable
   def book=(book)
     @book = book
     book.persons.push(self) unless book.persons.include?(self)
+  end
 
   def correct_name
     name
