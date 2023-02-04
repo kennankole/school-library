@@ -1,7 +1,6 @@
-require './names'
+require_relative './names'
 
 class Person < Nameable
-  @all_people = []
   attr_reader :id, :rentals, :parent_permission
   attr_accessor :name, :age
 
@@ -11,7 +10,7 @@ class Person < Nameable
     @age = age
     @parent_permission = parent_permission
     @rentals = []
-    @all_people << self
+    @all_people = []
   end
 
   def of_age?

@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
-require './menu'
+require_relative './menu'
 
 def main
   puts 'Welcome to my school library'
   app = App.new
-  app.menu
+  app.main
 end
 main

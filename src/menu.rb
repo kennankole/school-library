@@ -1,8 +1,8 @@
-require './book'
-require './rental'
-require './student'
-require './teacher'
-require './persons'
+require_relative './book'
+require_relative './rental'
+require_relative './student'
+require_relative './teacher'
+require_relative './persons'
 
 class App
   def initialize
@@ -21,16 +21,16 @@ class App
 		"
   end
 
-  def menu
+  def main
     loop do
       puts @user_menu
       @input = gets.chomp.to_i
-      users_selection(@input)
+      menu(@input)
       break if @input == 7
     end
   end
 
-  def users_selection(users_input)
+  def menu(users_input)
     case users_input
     when 1
       list_books
@@ -82,7 +82,7 @@ class App
     parent_permission = gets.chomp
     parent_permission = parent_permission.downcase == 'y'
 
-    @people_list << Student.new(id, age, name, parent_permission: parent_permission)
+    @people_list.push(Student.new(age, name, parent_permission: parent_permission))
     puts "Student created successfully\n"
   end
 
@@ -98,7 +98,7 @@ class App
     puts "Specialization: \n"
     specialiation = gets.chomp
     specialiation = specialiation.downcase
-    @people_list << Teacher.new(id, age, name, specialiation)
+    @people_list.push(Teacher.new(age, name, specialiation))
     puts 'Teacher created successfully'
   end
 
@@ -111,7 +111,7 @@ class App
     author = gets.chomp
     return puts 'Author too/short long' unless author.length.positive? && author.length < 150
 
-    @book_list << Book.new(title, author)
+    @book_list.push(Book.new(title, author))
     puts "Book created successfully\n"
   end
 
@@ -132,7 +132,7 @@ class App
 
     print "Date: \n"
     renting_date = gets.chomp
-    @rental_list << Rental.new(renting_date, book_rented, person_renting)
+    @rental_list.push(Rental.new(renting_date, book_rented, person_renting))
     puts 'Rental created successfully'
   end
 
